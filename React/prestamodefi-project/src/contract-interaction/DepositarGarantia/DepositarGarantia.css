@@ -1,0 +1,48 @@
+/* Estilos para el componente DepositarGarantia */
+.depositar-garantia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+}
+
+.depositar-garantia input {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.depositar-garantia button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.depositar-garantia button:hover {
+    background-color: #45a049;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+
+    .depositar-garantia input,
+    .depositar-garantia button {
+        width: 90%;
+        padding: 8px 15px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .depositar-garantia input,
+    .depositar-garantia button {
+        width: 90%;
+        padding: 6px 10px;
+        font-size: 0.8rem;
+    }
+}

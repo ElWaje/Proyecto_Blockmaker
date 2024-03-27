@@ -1,0 +1,52 @@
+/* Estilos para el componente DetallesPrestamo */
+.detalles-prestamo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+}
+
+.detalles-prestamo input {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.detalles-prestamo button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.detalles-prestamo button:hover {
+    background-color: #45a049;
+}
+
+.detalles-prestamo p {
+    margin-top: 10px;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+
+    .detalles-prestamo input,
+    .detalles-prestamo button {
+        width: 90%;
+        padding: 8px 15px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .detalles-prestamo input,
+    .detalles-prestamo button {
+        width: 90%;
+        padding: 6px 10px;
+        font-size: 0.8rem;
+    }
+}

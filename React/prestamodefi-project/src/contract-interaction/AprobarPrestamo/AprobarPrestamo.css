@@ -1,0 +1,48 @@
+/* Estilos para el componente AprobarPrestamo */
+.aprobar-prestamo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+}
+
+.aprobar-prestamo input {
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.aprobar-prestamo button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.aprobar-prestamo button:hover {
+    background-color: #45a049;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+
+    .aprobar-prestamo button,
+    .aprobar-prestamo input {
+        padding: 8px 16px;
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .aprobar-prestamo button,
+    .aprobar-prestamo input {
+        padding: 6px 12px;
+        font-size: 0.8rem;
+    }
+}

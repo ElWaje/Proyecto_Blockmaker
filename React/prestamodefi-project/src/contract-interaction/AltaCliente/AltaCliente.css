@@ -1,0 +1,38 @@
+/* Estilos para el componente AltaCliente */
+.alta-cliente {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+}
+
+.alta-cliente button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 1rem;
+}
+
+.alta-cliente button:hover {
+    background-color: #45a049;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+    .alta-cliente button {
+        padding: 8px 16px;
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .alta-cliente button {
+        padding: 6px 12px;
+        font-size: 0.8rem;
+    }
+}
